@@ -1,4 +1,4 @@
-# ADK - Knowledge Graph multiagente con Workflow (grafo)
+# ADK - Knowledge Graph multiagente con Workflow (Graph)
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat&logo=python&logoColor=white)
 ![Google ADK](https://img.shields.io/badge/Google_ADK-2.12-4285F4?style=flat&logo=google&logoColor=white)
