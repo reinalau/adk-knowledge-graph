@@ -1,0 +1,27 @@
+[
+  {
+    "id": "pioneers",
+    "input": "Geoffrey Hinton and Yann LeCun are pioneers of deep learning. Hinton developed backpropagation techniques at the University of Toronto, and LeCun created convolutional neural networks at Bell Labs. In 2018, Hinton, LeCun and Yoshua Bengio received the Turing Award for their work. Bengio founded Mila, a research institute in Montreal. Today LeCun works at Meta, where he leads fundamental AI research, while Hinton left Google in 2023 to speak openly about the risks of artificial intelligence.",
+    "expected_entities": ["Geoffrey Hinton", "Yann LeCun", "Yoshua Bengio", "Mila", "Meta", "Google", "Turing Award"],
+    "expected_relations": [
+      {"subject": "Yoshua Bengio", "predicate": "founded", "object": "Mila"},
+      {"subject": "Yann LeCun", "predicate": "works at", "object": "Meta"},
+      {"subject": "Geoffrey Hinton", "predicate": "left", "object": "Google"},
+      {"subject": "Yann LeCun", "predicate": "created", "object": "convolutional neural networks"},
+      {"subject": "Geoffrey Hinton", "predicate": "received", "object": "Turing Award"},
+      {"subject": "Yann LeCun", "predicate": "received", "object": "Turing Award"},
+      {"subject": "Yoshua Bengio", "predicate": "received", "object": "Turing Award"}
+    ]
+  },
+  {
+    "id": "space",
+    "input": "NASA launched the James Webb Space Telescope in December 2021 from French Guiana aboard an Ariane 5 rocket. The telescope was built with contributions from the European Space Agency and the Canadian Space Agency. It orbits the Sun near the second Lagrange point and observes the universe in infrared light. Its main mirror was manufactured by Ball Aerospace, and Northrop Grumman led the construction of the spacecraft.",
+    "expected_entities": ["NASA", "James Webb Space Telescope", "European Space Agency", "Canadian Space Agency", "Ariane 5", "Ball Aerospace", "Northrop Grumman"],
+    "expected_relations": [
+      {"subject": "NASA", "predicate": "launched", "object": "James Webb Space Telescope"},
+      {"subject": "James Webb Space Telescope", "predicate": "launched aboard", "object": "Ariane 5"},
+      {"subject": "Ball Aerospace", "predicate": "manufactured", "object": "main mirror"},
+      {"subject": "Northrop Grumman", "predicate": "led construction of", "object": "spacecraft"}
+    ]
+  }
+]

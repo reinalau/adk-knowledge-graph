@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars to override the defaults.
+region                       = "us-east-1"
+agent_name                   = "kg_pipeline_docs"
+bedrock_model_id             = "us.amazon.nova-2-lite-v1:0"
+idle_session_timeout_seconds = 900
+max_session_lifetime_seconds = 3600
+log_retention_days           = 1

@@ -1,0 +1,40 @@
+# Secrets and local environment
+.env
+.venv/
+
+# Python
+__pycache__/
+.pytest_cache/
+
+# ADK local sessions and eval history (adk web / adk eval)
+.adk/
+
+# Generated results
+outputs/*
+!outputs/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Exported traces from adk web
+trace*.json
+
+# Deployment package built by deploy/build_package.py
+build/
+
+# Terraform: state and plans contain account ids and ARNs.
+# Keep .terraform.lock.hcl in the repo (pins provider versions).
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+infra/terraform/.terraform.tfstate.lock.info
+infra/terraform/terraform.tfvars
+infra/terraform/*.auto.tfvars
+infra/terraform/*.tfplan
+infra/terraform/plan.txt
+infra/terraform/crash.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

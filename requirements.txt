@@ -1,0 +1,5 @@
+google-adk[eval,extensions]==2.12.0
+python-dotenv
+bedrock-agentcore
+pydantic
+pytest
