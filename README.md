@@ -336,8 +336,8 @@ python deploy/build_package.py
 cd infra/terraform
 terraform init
 terraform validate
-terraform plan
-terraform apply
+terraform plan -out=plan.tfplan
+terraform apply plan.tfplan
 
 # 3. Invoke the agent: two texts of the same paper in ONE session
 export AGENT_RUNTIME_ARN="$(terraform output -raw agent_runtime_arn)"
