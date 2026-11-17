@@ -398,7 +398,7 @@ Transaction Search queda activado en la cuenta porque no lo gestiona Terraform. 
 Este proyecto está bajo la Licencia MIT. Consultá el archivo [LICENSE](LICENSE) para más detalles.
 
 ## Referencias
-
+- [Google ADK vs Strands: guía técnica y despliegue en AWS](https://builder.aws.com/content/3MCC7aOXsK9abaDSMYZrZqZ1CuF/google-adk-vs-strands-guia-tecnica-y-despliegue-en-aws)
 - [ADK: workflows basados en grafos](https://adk.dev/graphs/)
 - [ADK: rutas, join y loops](https://adk.dev/graphs/routes/)
 - [ADK: manejo de datos entre nodos](https://adk.dev/graphs/data-handling/)
